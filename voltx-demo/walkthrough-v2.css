@@ -1,0 +1,1 @@
+.walkthrough-step{animation-duration:15s}.step-two{animation-delay:5s}.step-three{animation-delay:10s}.walkthrough-toast{animation-duration:15s}.walkthrough-route>span:nth-child(2){background-size:22px 2px;animation:dashFlow 1.2s linear infinite}.route-car{animation:routeMove 15s ease-in-out infinite}@keyframes dashFlow{to{background-position:-22px 0}}

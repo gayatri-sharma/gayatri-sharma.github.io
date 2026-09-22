@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Explore the VoltX EV charging interface with fictional vehicles, chargers and sample prices."><title>VoltX — Interactive Demo</title><link rel="stylesheet" href="./style.css"><script src="./demo.js" defer></script></head>
+<body><main>
+<header><a class="brand" href="./">Volt<span>X</span></a><span class="version">INTERACTIVE DEMO</span></header>
+<section class="intro"><p class="eyebrow">YOUR NEXT CHARGE STARTS HERE</p><h1>Your Tesla.<br><span>What’s nearby.</span></h1><p class="description">Explore nearby charging, compare sample rates, and preview a charging alert.</p></section>
+<p class="notice">Interface demo · All vehicles, chargers, distances, availability, and prices are fictional. No Tesla sign-in required.</p>
+<section class="connection"><div><p class="eyebrow">DEMO CONNECTION</p><h2>Sample vehicle ready</h2><p>Try the VoltX experience with simulated charging data.</p></div><div class="actions"><button id="refresh">Refresh sample data</button></div></section>
+<section aria-label="Demo vehicle"><div class="section-heading"><h2>Your vehicles</h2><small id="updated" role="status">Sample snapshot</small></div>
+<div class="notice"><strong>Rate alerts</strong><p>Preview an alert for the lowest sample rate within 3 miles.</p><button id="alert">Preview rate alert</button><p id="alert-preview" role="status" hidden></p></div>
+<article class="vehicle"><div class="vehicle-summary"><div><p class="eyebrow">MODEL Y · SIMULATED</p><h2>Demo Tesla</h2></div><div class="battery"><strong id="battery">62%</strong><span>Sample battery level</span></div></div>
+<div class="section-heading"><h3>Superchargers within 3 miles</h3><button class="secondary" id="sort">Sort by lowest price</button></div><p class="muted">Sample rates: Low ≤ $0.45 · Medium ≤ $0.50 · High > $0.50 per kWh.</p><ol class="chargers" id="chargers"></ol></article></section>
+<footer><span>VoltX / EV charging intelligence</span><span>Interface demo · Sample data only</span></footer>
+</main></body></html>
